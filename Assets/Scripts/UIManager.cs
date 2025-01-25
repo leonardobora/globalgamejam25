@@ -8,7 +8,7 @@ public class UIManager : MonoBehaviour {
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI manaText;
     public GameObject gameOverPanel;
-
+    
     void Awake() {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
