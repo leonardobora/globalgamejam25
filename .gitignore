@@ -1,0 +1,30 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# FMOD
+*.fsproj
+*.bank
+.fmod/
+.fmodstudio/
+
+# VS Code
+.vscode/
+.vs/
+
+# Outros
+*.DS_Store
+*.unitypackage
+Thumbs.db
