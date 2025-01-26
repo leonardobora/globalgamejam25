@@ -206,6 +206,7 @@ MonoBehaviour:
   decaySpeed: 0.5
   bubbleVisual: {fileID: 2286695472974208849}
   propulsionForce: 10
+  gravoffset: 1
 --- !u!114 &7502242242113984565
 MonoBehaviour:
   m_ObjectHideFlags: 0
