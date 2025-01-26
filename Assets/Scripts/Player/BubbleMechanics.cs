@@ -7,8 +7,11 @@ public class BubbleMechanic : MonoBehaviour
     public float minBubbleSize = 0.1f;
     public float growthSpeed = 1f;
     public float decaySpeed = 0.5f;
-    public Transform bubbleVisual; // Objeto filho com SpriteRenderer
+    public Transform bubbleVisual;
 
+    [Header("Movement")]
+    public float moveSpeed = 5f; // Velocidade horizontal
+    public float horizontalLimit = 8f; // Limite da tela
 
     [Header("Propulsion")]
     public float propulsionForce = 10f;
@@ -28,10 +31,24 @@ public class BubbleMechanic : MonoBehaviour
     void Update()
     {
         HandleBubbleInput();
+        HandleMovement(); // Adicionado controle de movimento
         UpdateBubbleVisual();
         CheckForExplosion();
-        Debug.Log(currentBubbleSize);
         SetGravitySpeed();
+    }
+
+    // Novo método para movimento horizontal
+    private void HandleMovement()
+    {
+        float horizontalInput = Input.GetAxisRaw("Horizontal"); // Usar GetAxisRaw para resposta instantânea
+        Vector2 velocity = rb.linearVelocity;
+        velocity.x = horizontalInput * moveSpeed;
+        rb.linearVelocity = velocity;
+
+        // Limitar posição horizontal
+        Vector3 clampedPosition = transform.position;
+        clampedPosition.x = Mathf.Clamp(clampedPosition.x, -horizontalLimit, horizontalLimit);
+        transform.position = clampedPosition;
     }
 private void SetGravitySpeed(){
     GameManager.Instance().SetSpeed(-(currentBubbleSize - gravoffset));

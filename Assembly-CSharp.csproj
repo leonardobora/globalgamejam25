@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Background.cs" />
+    <Compile Include="Assets\Scripts\spaws.cs" />
     <Compile Include="Assets\Scripts\Player\BubbleMechanics.cs" />
   </ItemGroup>
   <ItemGroup>
