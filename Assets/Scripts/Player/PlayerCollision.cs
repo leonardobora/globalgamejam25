@@ -3,15 +3,15 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     [Header("Tags")]
-    public string obstacleTag = "Obstacle";
+    public string obstacleTag = "Obstacles";
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag(obstacleTag))
         {
-        Debug.Log("colozao");
-            // Notifique o GameManager ou destrua o player
-            Destroy(gameObject);
+         Destroy(gameObject);
+          GameManager.Instance().OnPlayersDeath();
+           
         }
     }
 }

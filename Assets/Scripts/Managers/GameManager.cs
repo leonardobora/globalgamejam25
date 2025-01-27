@@ -1,5 +1,6 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
+using System.Collections;
 public class GameManager : MonoBehaviour
 {
     public float speedmult;
@@ -33,5 +34,18 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
+
+    public void OnPlayersDeath ()
+    {
+        vertical_speed = 0;
+        SoundTrack.Instance().StopSoundTrack();
+           StartCoroutine(DelayDeath());
+           
+    }
+    private IEnumerator DelayDeath()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("MenuScene");
     }
 }

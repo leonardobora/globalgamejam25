@@ -8,6 +8,8 @@ public class BubbleMechanic : MonoBehaviour
     public float growthSpeed = 1f;
     public float decaySpeed = 0.5f;
     public Transform bubbleVisual;
+    
+
 
     [Header("Movement")]
     public float moveSpeed = 5f; // Velocidade horizontal
@@ -26,6 +28,7 @@ public class BubbleMechanic : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         currentBubbleSize = transform.localScale.x;
+
     }
 
     void Update()
@@ -79,9 +82,10 @@ private void SetGravitySpeed(){
     {
         if (currentBubbleSize >= maxBubbleSize || currentBubbleSize <= minBubbleSize)
         {
-        Debug.Log("CheckForExplosion");
-            // Chame o GameOver do GameManager aqui
-            Destroy(gameObject); // Exemplo simples
+              Destroy(gameObject);
+            GameManager.Instance().OnPlayersDeath();
+            
+           // Exemplo simples
         }
     }
 
