@@ -6,7 +6,7 @@ public class Background : MonoBehaviour
 {
     public float maxY = 10.24f;
     
-    public float speedoffset = 1;
+    public float speedOffset = 1;
 
     private float currentPositionY;
 
@@ -16,7 +16,7 @@ public class Background : MonoBehaviour
 
     void Update()
     {
-        currentPositionY += GameManager.Instance().vertical_speed * Time.deltaTime * speedoffset;
+        currentPositionY += GameManager.Instance().vertical_speed * Time.deltaTime * speedOffset;
         
         if(currentPositionY < maxY)
         {
