@@ -70,6 +70,7 @@
     <Compile Include="Assets\Quantum Tek\Simple Menu\Scripts\SM_SaveDropdown.cs" />
     <Compile Include="Assets\DontDestoy.cs" />
     <Compile Include="Assets\Quantum Tek\Simple Menu\Scripts\SM_TabGroup.cs" />
+    <Compile Include="Assets\Scripts\spawn.cs" />
     <Compile Include="Assets\Quantum Tek\Simple Menu\Scripts\SM_Window.cs" />
     <Compile Include="Assets\Quantum Tek\Simple Menu\Scripts\SM_Menu.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCollision.cs" />
@@ -80,10 +81,9 @@
     <Compile Include="Assets\Scripts\SceneReload.cs" />
     <Compile Include="Assets\Quantum Tek\Simple Menu\Scripts\SM_Audio.cs" />
     <Compile Include="Assets\Quantum Tek\Simple Menu\Scripts\SM_OptionList.cs" />
-    <Compile Include="Assets\Quantum Tek\Simple Menu\Scripts\SM_TabWindow.cs" />
     <Compile Include="Assets\Quantum Tek\Simple Menu\Scripts\SM_Bar.cs" />
+    <Compile Include="Assets\Quantum Tek\Simple Menu\Scripts\SM_TabWindow.cs" />
     <Compile Include="Assets\Scripts\Background.cs" />
-    <Compile Include="Assets\Scripts\spaws.cs" />
     <Compile Include="Assets\Scripts\MovimentoComSprite.cs" />
     <Compile Include="Assets\Quantum Tek\Simple Menu\Scripts\SM_SaveOptionList.cs" />
     <Compile Include="Assets\Scripts\Player\BubbleMechanics.cs" />
