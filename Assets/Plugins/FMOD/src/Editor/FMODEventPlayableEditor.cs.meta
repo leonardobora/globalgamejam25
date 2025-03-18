@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: fa325be8441506c4bb1462c8333ccce9
 timeCreated: 1523230773
-licenseType: Store
+licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -14,7 +14,7 @@ MonoImporter:
 AssetOrigin:
   serializedVersion: 1
   productId: 161631
-  packageName: FMOD for Unity
+  packageName: FMOD for Unity (2.02)
   packageVersion: 2.02.26
   assetPath: Assets/Plugins/FMOD/src/Editor/FMODEventPlayableEditor.cs
-  uploadId: 717736
+  uploadId: 733879

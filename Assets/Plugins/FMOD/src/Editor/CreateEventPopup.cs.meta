@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 9c9773a32ed4a2b429fd42645175c32b
 timeCreated: 1455063674
-licenseType: Store
+licenseType: Free
 MonoImporter:
   serializedVersion: 2
   defaultReferences: []
@@ -13,7 +13,7 @@ MonoImporter:
 AssetOrigin:
   serializedVersion: 1
   productId: 161631
-  packageName: FMOD for Unity
+  packageName: FMOD for Unity (2.02)
   packageVersion: 2.02.26
   assetPath: Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs
-  uploadId: 717736
+  uploadId: 733879

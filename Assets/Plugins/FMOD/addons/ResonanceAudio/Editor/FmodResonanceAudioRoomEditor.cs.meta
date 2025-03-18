@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 935c6716e27bd481e97897dd9e1de595
 timeCreated: 1511395157
-licenseType: Store
+licenseType: Pro
 MonoImporter:
   serializedVersion: 2
   defaultReferences: []
@@ -13,7 +13,7 @@ MonoImporter:
 AssetOrigin:
   serializedVersion: 1
   productId: 161631
-  packageName: FMOD for Unity
+  packageName: FMOD for Unity (2.02)
   packageVersion: 2.02.26
   assetPath: Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs
-  uploadId: 717736
+  uploadId: 733879

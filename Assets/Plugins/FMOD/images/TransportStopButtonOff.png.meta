@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: cafa069c15865d543a07375373f0a18e
 timeCreated: 1453177025
-licenseType: Store
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2
@@ -58,7 +58,7 @@ TextureImporter:
 AssetOrigin:
   serializedVersion: 1
   productId: 161631
-  packageName: FMOD for Unity
+  packageName: FMOD for Unity (2.02)
   packageVersion: 2.02.26
   assetPath: Assets/Plugins/FMOD/images/TransportStopButtonOff.png
-  uploadId: 717736
+  uploadId: 733879
